@@ -22,7 +22,7 @@ public class Count_digits_of_number {
 	}
 
 	public static void main(String[] args) {
-		counter(-9);
+		counter(9);
 
 	}
 

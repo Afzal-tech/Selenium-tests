@@ -3,14 +3,18 @@
   <groupId>Selenium_Tests</groupId>
   <artifactId>Selenium_Tests</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  
-  <dependencies>
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
+
+
+    <dependencies>
     <dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.8.8</version>
-			<scope>test</scope>
+			
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
