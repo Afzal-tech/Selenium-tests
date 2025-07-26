@@ -25,14 +25,8 @@ public static void pre_order_values_recursion(TreeNode root) {
 		
 		pre_order_values_recursion(root.left);
 		pre_order_values_recursion(root.right);
-			
-			
 
 	}
-	
-	
-	
-
 	public static void main(String[] args) {
 		
 	NodeSumValues_preorder tree = new NodeSumValues_preorder();

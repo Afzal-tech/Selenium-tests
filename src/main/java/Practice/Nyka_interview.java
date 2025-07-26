@@ -1,8 +1,5 @@
 package Practice;
 
-import java.util.concurrent.TimeUnit;
-
-import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +14,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import java.util.concurrent.TimeUnit;
 
 public class Nyka_interview {
 	// contains test page of nYkaa, with mentiones cases on page

@@ -79,7 +79,7 @@ public class Xpaths_Practice {
 		driver = new ChromeDriver(options);
 		//options.addArguments("start-maximized");
 		//options.addArguments("--disable-notifications");
-		options.addArguments("--headless");
+		//options.addArguments("--headless");
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
@@ -96,7 +96,7 @@ public class Xpaths_Practice {
 	
 	@AfterMethod
 	public void quit() {
-		driver.quit();
+		//driver.quit();
 	}
 	
 	

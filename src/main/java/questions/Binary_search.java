@@ -40,6 +40,7 @@ public class Binary_search {
 	
 	
 	// binary search using recursion
+	//int [] arr ={1,7,9,4,6,11,15,2,7,0};
 public static int  binary_search(int [] arr ,int low, int high,  int number) {	
 
 		if (low>high) {
